@@ -1,0 +1,31 @@
+Lista de comandar para usar no Git
+
+
+O Git é um sistema de controle de versão extremamente poderoso e popular no desenvolvimento de software. Ele permite que você acompanhe as mudanças em seus projetos, colabore com outras pessoas e gerencie diferentes versões do seu código.
+
+Comandos Básicos:
+
+git init: Inicializa um novo repositório Git em um diretório. É o primeiro passo para começar a usar o Git em um projeto.
+git clone: Cria uma cópia local de um repositório Git existente em um servidor remoto.
+git add: Adiciona arquivos modificados ao staging area, preparando-os para serem commitados.
+git commit: Cria um novo commit (instantâneo) do projeto, incluindo as alterações adicionadas ao staging area.
+git status: Mostra o status atual do repositório, indicando quais arquivos foram modificados, adicionados ao staging area ou não rastreados.
+git log: Exibe o histórico de commits, mostrando as mensagens de commit, datas e autores.
+git diff: Mostra as diferenças entre duas versões de um arquivo ou entre o staging area e o último commit.
+Comandos para Gerenciar Branches:
+
+git branch: Lista todos os branches existentes e cria novos branches.
+git checkout: Alterna entre diferentes branches.
+git merge: Mescla as alterações de um branch em outro.
+git rebase: Rebaseia um branch em outro, reescrevendo o histórico de commits.
+Comandos para Interagir com Remotes:
+
+git remote: Adiciona, remove ou lista os repositórios remotos.
+git push: Envia os commits locais para um repositório remoto.
+git pull: Baixa os commits de um repositório remoto e os mescla no branch local.
+Outros Comandos Úteis:
+
+git reset: Desfaz as últimas alterações.
+git revert: Desfaz um commit específico, criando um novo commit para reverter as mudanças.
+git tag: Cria tags para marcar pontos específicos no histórico de commits.
+git stash: Temporariamente guarda as alterações não commitadas para poder voltar a elas mais tarde.
